@@ -64,7 +64,7 @@ header {
 }
 
 .colored_header {
-    background: linear-gradient(0.25turn, rgba(64, 210, 255, 1)20%, rgba(0, 87, 255, 1)100%);
+    background: linear-gradient(0.25turn, rgba(64, 210, 255, 1), rgba(0, 87, 255, 1)100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
