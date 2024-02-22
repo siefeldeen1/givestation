@@ -1,0 +1,48 @@
+.products {
+    /* height: 80vh; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 3% 0;
+    margin: auto;
+}
+
+.products_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    gap: 5%;
+}
+
+.View_more_projects {
+    color: #3EA7E1;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.View_more_projects:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 0px) {
+    .products_title {
+        text-align: center;
+    }
+
+    .products_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5%;
+        padding: 0 10px;
+    }
+}

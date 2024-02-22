@@ -1,0 +1,20 @@
+.basic_btn {
+    border-radius: 8px;
+    padding: 10px 19px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 13px;
+    background: white;
+    cursor: pointer;
+    transition: 0.4s;
+    letter-spacing: 1.4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Public Sans", sans-serif;
+}
+
+.basic_btn:hover {
+    opacity: 0.7;
+}

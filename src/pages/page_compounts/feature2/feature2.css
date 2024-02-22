@@ -1,0 +1,33 @@
+.feature2 {
+    background-image: url('/imgs/backg.png');
+    height: 80vh;
+    background-repeat: round;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.widget_cont {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 48%;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 0px) {
+
+    .feature2 {
+        height: unset;
+        padding: 10px 0;
+    }
+
+    .widget_cont {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        gap: 15px;
+    }
+
+}

@@ -1,0 +1,30 @@
+.products_r {
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 3%;
+}
+
+
+.galary_prod {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    width: 70%;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 0px) {
+    .products_r {
+        height: unset;
+    }
+
+    .galary_prod {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+    }
+
+}

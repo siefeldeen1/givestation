@@ -1,0 +1,32 @@
+.news_item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: #CFD9F0 2px solid;
+    border-radius: 18px;
+    padding: 22px 19px;
+    /* width: 70%; */
+    gap: 10px;
+}
+
+.news_img {
+    width: 100%;
+}
+
+.news_desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.news_title {
+    color: #020202;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.news_p {
+    color: #020202ae;
+    font-size: 14px;
+    font-weight: 600;
+}

@@ -1,0 +1,41 @@
+.faq {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.faq_h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #3e3e5985;
+    margin-bottom: 30px;
+}
+
+.faq_body {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 0px) {
+    .faq {
+        height: unset;
+    }
+
+
+    .faq_h1 {
+        text-align: center;
+    }
+
+    .faq_h3 {
+        text-align: center;
+    }
+
+    .faq_body {
+        width: 90%;
+    }
+}

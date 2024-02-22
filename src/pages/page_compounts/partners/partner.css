@@ -1,0 +1,52 @@
+.partner {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner_title {
+    color: #141414;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.partner_body {
+    background: #F7F8FD;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 75%;
+    margin: 0 auto;
+    padding: 30px 25px;
+    height: 55%;
+    border-radius: 12px;
+}
+
+.partner_imgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 0px) {
+
+
+    .partner_body {
+        gap: 30px;
+        height: unset;
+    }
+
+    .partner_title {
+        text-align: center;
+    }
+
+    .partner_imgs {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
