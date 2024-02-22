@@ -13,7 +13,7 @@
 }
 
 .widget:hover {
-    background: linear-gradient(0.25turn, rgba(52, 149, 255, 1)20%, rgba(78, 206, 201, 1)100%);
+    background: linear-gradient(0.25turn, rgba(52, 149, 255, 1), rgba(78, 206, 201, 1)100%);
 }
 
 
