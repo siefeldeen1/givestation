@@ -1,5 +1,5 @@
 .header_bg {
-    background-image: url('./imgs/bg.png');
+    background-image: url('/imgs/bg.png');
     height: 80vh;
     background-repeat: round;
 }
