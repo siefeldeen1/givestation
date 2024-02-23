@@ -171,7 +171,16 @@
 
     .lower_part_pr {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 10px;
     }
+}
+
+
+@media screen and (max-width: 400px) and (min-width: 0px) {
+
+    .dono_btn {
+        font-size: 12px !important;
+    }
+
 }

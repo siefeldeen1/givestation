@@ -61,7 +61,7 @@ function Product_item() {
                         <img src="/imgs/person.png" alt="" />
                         <div className='username_pro'>By 0x000000</div>
                     </div>
-                    <Button text={"Donate Now"} styles={{ color: "white", background: "#3EA7E1", padding: "15px 20px", fontSize: "17px", borderRadius: "8px" }} />
+                    <Button text={"Donate Now"} classname={"dono_btn"} styles={{ color: "white", background: "#3EA7E1", padding: "15px 20px", fontSize: "17px", borderRadius: "8px" }} />
                 </div>
             </div>
         </div>
