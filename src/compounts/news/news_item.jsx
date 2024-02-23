@@ -8,7 +8,7 @@ function News_item() {
             <div className='news_desc'>
                 <div className='news_title'>Join Givestation ambassador...</div>
                 <p className='news_p'>A community of creators and remote web3 builders who use blockchain to earn a living online.</p>
-                <div className='learn_more'>Learn More <FaArrowRight style={{ marginBottom: "1px" }} /></div>
+                <a className='learn_more' href='#'>Learn More <FaArrowRight style={{ marginBottom: "1px" }} /></a>
             </div>
         </div>
     )
