@@ -10,7 +10,7 @@ function Product_show({ img, title, tag, body }) {
             </div>
             <div className='prod_tag'>{tag}</div>
             <p className='prod_body'>{body}</p>
-            <div className='learn_more'>Learn More <FaArrowRight style={{ marginBottom: "1px" }} /></div>
+            <a href='#' className='learn_more'>Learn More <FaArrowRight style={{ marginBottom: "1px" }} /></a>
         </div>
     )
 }

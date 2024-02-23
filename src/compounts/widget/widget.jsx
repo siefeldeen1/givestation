@@ -12,7 +12,7 @@ function Widget({ icon, title, body }) {
                 </div>
                 <div className='widget_body'>{body}</div>
             </>
-            <div className='learn_more'>Learn More <FaArrowRight style={{ marginBottom: "1px" }} /></div>
+            <a href="#" className='learn_more'>Learn More <FaArrowRight style={{ marginBottom: "1px" }} /></a>
         </div>
     )
 }
