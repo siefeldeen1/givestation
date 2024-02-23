@@ -16,7 +16,7 @@ function Footer() {
                             </div>
 
                             <div className='footer_content'>
-                                <>
+                                <div className='footer_sub'>
                                     <div className='footer_data'>
                                         <h4 className='h4_footer'>Products</h4>
                                         <div className='footer_hyp'><a href="https://youbuidl.dev/">YouBuild</a></div>
@@ -33,7 +33,7 @@ function Footer() {
                                         <div className='footer_hyp'><a href="https://medium.com/@givestation">Medium</a></div>
                                     </div>
 
-                                </>
+                                </div>
                                 <div className='footer_data'>
                                     <h4 className='h4_footer'>Developers</h4>
                                     <div className='footer_hyp'><a href="https://givestation.gitbook.io/givestation/">Docs</a></div>

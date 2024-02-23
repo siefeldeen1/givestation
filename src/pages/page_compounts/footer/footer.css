@@ -83,6 +83,11 @@
     height: 50px;
 }
 
+.footer_sub {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (max-width: 1000px) and (min-width: 0px) {
 
     .footer {
@@ -104,6 +109,8 @@
         display: flex;
         justify-content: space-between;
         margin-top: unset;
+        flex-direction: column;
+        gap: 30px;
     }
 
     .copyright {
@@ -119,11 +126,11 @@
     }
 
     .h4_footer {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .footer_hyp {
-        font-size: 11px;
+        font-size: 15px;
     }
 
 
