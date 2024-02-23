@@ -17,7 +17,7 @@ function landing() {
             <Header />
             <Feature />
             <Feature2 />
-            <Projects />
+            {/* <Projects /> */}
             <Multi />
             <Product />
             <Partner />

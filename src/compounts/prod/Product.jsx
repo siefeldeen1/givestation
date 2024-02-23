@@ -1,7 +1,7 @@
 import React from 'react'
 import './Product.css'
 import { FaArrowRight } from "react-icons/fa6";
-function Product_show({ img, title, tag, body }) {
+function Product_show({ img, title, tag, body, link }) {
     return (
         <div className='product_show'>
             <div className='prod_title_cont'>
@@ -10,7 +10,7 @@ function Product_show({ img, title, tag, body }) {
             </div>
             <div className='prod_tag'>{tag}</div>
             <p className='prod_body'>{body}</p>
-            <a href='#' className='learn_more'>Learn More <FaArrowRight style={{ marginBottom: "1px" }} /></a>
+            <a href={`${link}`} className='learn_more'>Learn More <FaArrowRight style={{ marginBottom: "1px" }} /></a>
         </div>
     )
 }

@@ -78,6 +78,11 @@
     margin-top: 20px;
 }
 
+.img_footer {
+    width: 55px;
+    height: 50px;
+}
+
 @media screen and (max-width: 1000px) and (min-width: 0px) {
 
     .footer {
@@ -89,8 +94,16 @@
         display: flex;
         flex-direction: column;
         align-items: unset;
-        padding: 10px;
+        padding: 28px 10px;
         width: unset;
+        gap: 23px;
+    }
+
+
+    .footer_content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: unset;
     }
 
     .copyright {
@@ -110,6 +123,11 @@
     }
 
     .footer_hyp {
-        font-size: 10px;
+        font-size: 11px;
+    }
+
+
+    .logo_spe {
+        align-items: unset;
     }
 }

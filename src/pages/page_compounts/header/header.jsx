@@ -26,7 +26,7 @@ function header() {
                 </div>
 
                 <div>
-                    <Button text={"Submit a Grant "} classname={"header_btn_res"} styles={{ fontSize: "16px", fontWeight: "bold" }} />
+                    <Button text={<a href="https://youbuidl.dev/create-project">Submit a Grant</a>} classname={"header_btn_res"} styles={{ fontSize: "16px", fontWeight: "bold" }} />
                 </div>
             </header>
 
@@ -37,7 +37,7 @@ function header() {
 
                 <div className='header_btns'>
                     <Button text={`Read More`} classname={"explore_more_res"} styles={{ background: "#343F58", color: "white", padding: "16px 35px", fontSize: "14px", height: "100%" }} />
-                    <Button text={`Explore Grants`} classname={"explore_more_res"} icon={<CiShare1 size={22} style={{ marginBottom: "2px" }} />} styles={{ background: "linear-gradient(0.25turn, rgba(52, 149, 255, 1)20%, rgba(78, 206, 201, 1)100%)", color: "white", padding: "13px 36px", fontSize: "15px", height: "100%" }} />
+                    <Button text={<a href=" https://youbuidl.dev/">Explore Grants</a>} classname={"explore_more_res"} icon={<CiShare1 size={22} style={{ marginBottom: "2px" }} />} styles={{ background: "linear-gradient(0.25turn, rgba(52, 149, 255, 1)20%, rgba(78, 206, 201, 1)100%)", color: "white", padding: "13px 36px", fontSize: "15px", height: "100%" }} />
                 </div>
             </section>
 
