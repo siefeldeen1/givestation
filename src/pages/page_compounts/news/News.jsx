@@ -18,7 +18,7 @@ function News() {
                         0: {
                             slidesPerView: 1,
                         },
-                        400: {
+                        800: {
                             slidesPerView: 2,
                         },
                         1200: {

@@ -83,6 +83,19 @@ header {
 
     .header_btns {
         display: flex;
-        flex-direction: column-reverse;
+        justify-content: space-between;
+        /* flex-direction: column-reverse; */
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .explore_more_res {
+        font-size: 11px !important;
+        padding: 7px 23px !important;
+
+    }
+
+    .header_btn_res {
+        font-size: 11px !important;
     }
 }

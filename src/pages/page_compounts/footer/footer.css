@@ -72,6 +72,12 @@
     font-size: 14px;
 }
 
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 1000px) and (min-width: 0px) {
 
     .footer {
@@ -93,5 +99,17 @@
 
     .inner_copy {
         width: unset;
+        margin: unset;
+        font-size: 9px;
+        padding-bottom: 5px;
+        margin-left: 10px;
+    }
+
+    .h4_footer {
+        font-size: 12px;
+    }
+
+    .footer_hyp {
+        font-size: 10px;
     }
 }

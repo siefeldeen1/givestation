@@ -26,15 +26,23 @@
     gap: 5px;
     cursor: pointer;
     transition: 0.4s;
+
 }
 
 .View_more_projects:hover {
     opacity: 0.6;
 }
 
+.swiper_proj {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
 @media screen and (max-width: 1000px) and (min-width: 0px) {
     .products_title {
         text-align: center;
+        padding-top: 20px;
     }
 
     .products_item {
@@ -44,5 +52,14 @@
         justify-content: space-between;
         gap: 5%;
         padding: 0 10px;
+    }
+
+    .products {
+        display: unset;
+    }
+
+    .View_more_projects {
+        justify-content: center;
+        padding-bottom: 20px;
     }
 }

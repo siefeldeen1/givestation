@@ -24,6 +24,7 @@
 @media screen and (max-width: 1000px) and (min-width: 0px) {
     .faq {
         height: unset;
+        padding: 20px 0 60px 0;
     }
 
 
@@ -33,6 +34,7 @@
 
     .faq_h3 {
         text-align: center;
+        display: none;
     }
 
     .faq_body {

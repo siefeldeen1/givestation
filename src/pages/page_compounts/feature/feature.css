@@ -43,10 +43,11 @@
 @media screen and (max-width: 1000px) and (min-width: 0px) {
     .feature {
         height: unset;
+        padding: 20px 0;
     }
 
     .feature_body {
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
 
     }

@@ -24,3 +24,22 @@
     gap: 5px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1000px) and (min-width: 0px) {
+    .news {
+        height: unset;
+        padding-bottom: 20px;
+    }
+
+    .h1_news {
+        font-size: 25px;
+    }
+
+    .news_more {
+        font-size: 12px;
+    }
+
+    .news_header {
+        align-items: end;
+    }
+}
