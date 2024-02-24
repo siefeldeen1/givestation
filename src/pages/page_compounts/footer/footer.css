@@ -30,7 +30,7 @@
 .footer_logo {
     display: flex;
     align-items: center;
-    gap: 9px;
+    /* gap: 9px; */
     font-size: 22px;
     font-weight: bold;
     font-family: "Plus Jakarta Sans", sans-serif;

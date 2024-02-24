@@ -10,7 +10,7 @@ function Footer() {
                         <>
                             <div className='footer_data logo_spe' >
                                 <div className='footer_logo'>
-                                    <img src="/imgs/logo.png" alt="" />
+                                    <img src="/imgs/newl.png" className='img_footer' alt="" />
                                     givestation
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ function Footer() {
                         <>
                             <div className='footer_data logo_spe' >
                                 <div className='footer_logo'>
-                                    <img src="/imgs/logo.png" alt="" />
+                                    <img src="/imgs/newl.png" className='img_footer' alt="" />
                                     givestation
                                 </div>
                             </div>

@@ -14,7 +14,7 @@ function header() {
         <div className='header_bg'>
             <header>
                 <div className='logo'>
-                    <img src="/imgs/logo.png" alt="" />
+                    <img src="/imgs/newl.png" className='img_footer' alt="" />
                     <div className='text_logo'>givestation</div>
                 </div>
 
