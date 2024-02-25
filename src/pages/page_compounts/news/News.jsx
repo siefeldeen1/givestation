@@ -34,9 +34,9 @@ function News() {
                     onSwiper={(swiper) => console.log(swiper)}
 
                 >
-                    <SwiperSlide><News_item link={"https://medium.com/@givestation/what-is-givebridge-1066eedcc9f8"} /></SwiperSlide>
-                    <SwiperSlide><News_item link={"https://medium.com/@givestation/givestation-name-service-gns-dffcd8c5522f"} /></SwiperSlide>
-                    <SwiperSlide><News_item link={"https://medium.com/@givestation/introducing-youbuidl-df752ac0eb3"} /></SwiperSlide>
+                    <SwiperSlide><News_item link={"https://medium.com/@givestation/what-is-givebridge-1066eedcc9f8"} title={"title"} body={"body"} img={"/imgs/news.png"} /></SwiperSlide>
+                    <SwiperSlide><News_item link={"https://medium.com/@givestation/givestation-name-service-gns-dffcd8c5522f"} title={"title"} body={"body"} img={"/imgs/news.png"} /></SwiperSlide>
+                    <SwiperSlide><News_item link={"https://medium.com/@givestation/introducing-youbuidl-df752ac0eb3"} title={"title"} body={"body"} img={"/imgs/news.png"} /></SwiperSlide>
                     {/* <SwiperSlide><News_item /></SwiperSlide>
                     <SwiperSlide><News_item /></SwiperSlide>
                     <SwiperSlide><News_item /></SwiperSlide>
